@@ -1,0 +1,87 @@
+#wrapper{
+    max-width: 920px;
+    width:100%;
+    margin:auto;
+    border:1px solid #999;
+}
+#wrapper:after{
+    content:'';
+    display:block;
+    clear:both;
+}
+#search-container{
+    padding: 30px;
+    border-bottom: 1px solid #999;
+}
+#search-container input {
+    border-radius: 5px;
+    border: 2px solid #dedede;
+    padding-left: 3px;
+    padding: 5px;
+}
+#search-container button, #pagination button{
+    border-radius: 5px;
+    background: #dedede;
+    padding: 5px;
+    border: 1px solid #dedede;
+}
+
+.games-page{
+    padding:8px;
+}
+#pagination{
+    float:right;
+}
+#games{
+    padding: 8px;
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+}
+.game-container{
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.preview-image{
+    width: 25%;
+    display: inline-block;
+    float: left;
+    margin-right: 30px;
+}
+.game-name{
+    width: 100%;
+    float: left;
+    display: inline-block;
+    font-size: 20px;    
+}
+.stream-name{
+    width: 100%;
+    float: left;
+    display: inline-block;
+    font-size: 25px;
+    font-weight: bold;
+}
+.border-bottom{
+    border-bottom: 1px solid lightgray;
+}
+.padding{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.preview-image img{
+    width:100%;
+    border: 3px solid #999;
+}
+#current{
+    display: inline-block;
+    padding: 0px 4px;
+    margin-right: 4px;
+}
+
+.sec-game-container{
+    float:left;
+    width: 70%;
+}
+
+

@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+  <head>
+    <link href="search.css" type="text/css" rel="stylesheet">
+    <title>Twitch Stream Search</title>
+  </head>
+  <body>
+  <div id="wrapper">
+    <div id="search-container">
+      <input id="search-query" type="text" placeholder="Search Query"/>
+      <button onclick="searchStream()">Search</button>
+    </div>
+    <div id="results">
+      <div id="games-container">
+        <div class="games-page">
+            <span id="total-games"></span>
+            <span id="pagination">
+              <button id="prev-button" onclick="navigate('prev')">Prev</button>
+              <span id="current"></span><button id="next-button" onclick="navigate('next')">Next</button>
+            </span>
+              <input type="hidden" id="next-query">
+              <input type="hidden" id="prev-query">
+        </div>
+        <div id="games"></div>
+      </div>
+    </div>
+    </div>
+    <script src="js/util.js"></script>
+    <script src="js/search.js"></script>
+  </body>
+</html>
